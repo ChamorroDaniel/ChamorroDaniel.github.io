@@ -1,0 +1,49 @@
+body{
+    background-color: lightslategray;
+    font-family: 'Times New Roman', Times, serif;
+}
+header{
+    background-color:maroon;
+    text-align: center;
+    height: 50px;
+    width: 100%;
+    margin:  0%;
+}
+.titulo{
+ 
+        
+        color: mintcream;
+}
+nav a { 
+    color: mintcream;
+    height: 20px;
+    text-align: center;
+
+}
+nav{
+    text-align: center;
+}
+.clearfix{
+    clear: both;
+}
+
+#info{
+    background-color: orange;
+    float: left;
+    width: 70%;
+    height: 200px;
+   
+}
+aside{
+    background-color: orange;
+  float: left;
+  width: 30%;
+}
+.final{
+    font-size: 8pt;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
