@@ -34,6 +34,14 @@ nav{
     height: 200px;
    
 }
+.infob{
+    background-color:blue;
+    float: left;
+    width: 70%;
+    height: 200px;
+    text-align: center;
+
+}
 aside{
     background-color: orange;
   float: left;
@@ -46,4 +54,7 @@ aside{
     background-color: black;
     color: white;
 }
+
+
+    
 

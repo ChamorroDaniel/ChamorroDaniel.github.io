@@ -8,19 +8,36 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="estilopersonal.css">
     </head>
+
     <body>
-        <h1> Mi Website</h1>
+        <header class="titulo">
+            <h1>Mi WebSite</h1> 
+        </header>
         <br/>
-        <a href="Index.html">Home</a>
-        <a href="About.html">About</a>
+        <nav> <a href="Index.html">Home</a>
+            <a href="About.html">About</a></nav>
          <hr/>
         <h2>Como encontrarme:</h2>
-        <h3> Instagram :<a href="https://www.instagram.com/danielchamorro13/?hl=es"> @chamorro13</a></h3>
-        <img src="ig.jpeg"/> 
-        <h3> WhatsApp : 990053386</h3>
-
-        <h3> Facebook: <a href="https://www.facebook.com/daniel.michael.357"> Daniel Chamorro</a></h3>
-        <img src="facebook.jpeg"/> 
+        <div>
+        <section id="info"> Instagram :<a href="https://www.instagram.com/danielchamorro13/?hl=es"> @chamorro13</a>
+        </section>
+        <aside>
+        <img src="ig.jpeg" width="400" height="200"/> 
+    </aside>
+    </div>
+    <hr/>
+        <section id="info"> WhatsApp : 990053386</section>
+    <hr/>
+        <div>
+        <section id="info">
+        Facebook: <a href="https://www.facebook.com/daniel.michael.357"> Daniel Chamorro</a>
+    </section>
+    <aside>
+        <img src="facebook.jpeg" width="400" height="200"/>
+    </aside>
+    </div> 
+        <div class="clearfix"></div>
+        <footer ><h1 class="final">DANIEL CHAMORRO GIL</h1> </footer>
         <script src="" async defer></script>
     </body>
 </html>
