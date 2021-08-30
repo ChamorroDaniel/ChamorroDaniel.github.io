@@ -88,3 +88,36 @@ footer{
         height: 40%;
         padding-right: 2%;
 }
+#cambio-letra{
+    font-family: 'Pacifico', cursive;
+}
+.social-bar{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+.fa{
+    color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5;
+}
+.fa-facebook{
+    background-color: blue;
+}
+.fa-instagram{
+    background-color: yellow;
+}
+.fa-youtube{
+    background-color: red;
+
+}
+.fa-whatsapp{
+    background-color: seagreen;
+}
