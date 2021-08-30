@@ -58,9 +58,33 @@ footer{
     text-align: center;
     background-color: black;
     color: white;
+    padding-top: 1px;
+    align-content: center;
     
     
 }
 
 /*About*/
 
+#section-about{
+    background-color: chocolate;
+    float: left;
+    width: 60%;
+    height: 160%;
+}
+#aside-about{
+    background-color:peru;
+    float:right;
+    width: 40%;
+    height: 160%;
+    align-content: center;
+}
+
+/*Contact*/
+#section-contact{
+    background-color: royalblue;
+    text-align: center;
+        padding-top: 2%;
+        height: 40%;
+        padding-right: 2%;
+}
