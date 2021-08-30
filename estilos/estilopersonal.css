@@ -70,13 +70,13 @@ footer{
     background-color: chocolate;
     float: left;
     width: 60%;
-    height: 160%;
+    height: 430%;
 }
 #aside-about{
     background-color:peru;
     float:right;
     width: 40%;
-    height: 160%;
+    height: 430%;
     align-content: center;
 }
 
@@ -85,7 +85,7 @@ footer{
     background-color: royalblue;
     text-align: center;
         padding-top: 2%;
-        height: 40%;
+        height: 60%;
         padding-right: 2%;
 }
 #cambio-letra{
@@ -124,4 +124,37 @@ footer{
 
 .sub{
     color: black;
+}
+.Container-img{
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px; 
+}
+.Caja-img{
+    background-color: white;
+    box-shadow: 0 4px 8px #534666;
+    margin: 10px;
+}
+.Text-img{
+    padding-left: 10px;
+    font-size: 10%;
+    text-align: center;
+}
+.Item-img{
+    max-width: 100%;
+    display: block;
+}
+.Caja-img2{
+    background-color: white;
+    box-shadow: 0 10px 10px #534666;
+    margin: 10px;
+}
+.Text-img2{
+    padding-left: 5px;
+    font-size: 50%;
+    text-align: center;
 }
