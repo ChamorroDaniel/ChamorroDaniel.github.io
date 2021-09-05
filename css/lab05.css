@@ -6,13 +6,19 @@
 body {
     margin: 50px;
     padding: 20px;
-    /*Para los datos que vamos a ingresar*/
 }
 
 .todo {
     background-color: rgb(162, 229, 231);
     border: solid rgb(124, 177, 221);
     padding: 40px;
+}
+button {
+    height: 50px;
+    width: 170px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
 }
 
 #titulo {
@@ -31,7 +37,6 @@ body {
 }
 
 
-/*Primera tabla para ingresar textos*/
 
 .textoIngresado {
     border: solid rgb(160, 15, 10);
@@ -54,10 +59,7 @@ body {
 }
 
 
-/*---------------------------------*/
 
-
-/*------Botones---------*/
 
 .bloques .botones {
     margin: 20px;
@@ -72,16 +74,10 @@ body {
     margin: 20px;
 }
 
-button {
-    height: 50px;
-    width: 170px;
-    font-size: 25px;
-    background-color: transparent;
-    color: white;
-}
+
 
 .botoncolorear {
-    background-color: seagreen;
+    background-color: solid rgb(160, 15, 10);
     height: 30px;
     width: 170px;
     border: solid rgb(8, 7, 7);
@@ -90,10 +86,7 @@ button {
 }
 
 
-/*-----------------------------*/
 
-
-/*Segundo seción*/
 
 .Resultados {
     display: flex;
@@ -106,7 +99,6 @@ button {
 }
 
 
-/*Para la dos tablitas para mostrar texto*/
 
 .textoextraido {
     border: solid rgb(160, 15, 10);
@@ -119,12 +111,10 @@ button {
 
 
 
-/*-------------------------------------------------*/
-
 .color2 {
     border: solid rgb(160, 15, 10);
     background-color: rgb(160, 15, 10);
-    color: black
+    color: white;
     height: 30px;
     width: 500px;
     margin: 5px;

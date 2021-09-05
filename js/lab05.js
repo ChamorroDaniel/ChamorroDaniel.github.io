@@ -13,7 +13,7 @@
         let botoncolorear = document.getElementById("botoncolorear");
 
 
-        function extraerDatos() {
+        function obtenerDatos() {
             //Primero fracionamos las frases de apellidos y nombres
 
             if (nombre_apellido.value == "") {
@@ -112,7 +112,7 @@
         }
 
         // Metodos
-        botonextraer.addEventListener('click', extraerDatos, true);
+        botonextraer.addEventListener('click', obtenerDatos, true);
         //Cajas Azules 
         let cajaAzul1 = document.getElementById("color1_1");
         let cajaAzul2 = document.getElementById("color3");
@@ -126,7 +126,7 @@
         let contador = 0;
 
      
-        function colorearCajas() {
+        function color() {
             if (contador == 0) {
                 
                 cajaAzul1.classList.add('rojo');
@@ -155,7 +155,7 @@
                 contador = 0;
             }
         }
-        botoncolorear.addEventListener('click', colorearCajas, true);
+        botoncolorear.addEventListener('click', color, true);
 
 
     };
