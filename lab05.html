@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/lab05.css">
+    </head>
+    <body>
+        <section>
+            <div class="todo">
+                <h1 id="titulo">LAB 05: TALLER DE JAVASCRIPT</h1>
+                <div class="bloque">
+                    <div class="datos">
+                        <table class="datosPersonales">
+                            <tr>
+                                <td class="color1" id="color1_1">
+                                    <h3>Apellidos y nombre:</h3>
+                                </td>
+                                <td class="textoIngresado">
+                                    <input id="name" type="text" name="name" placeholder="Ingrese sus apellido y nombre">
+                                </td>
+                                <td class="botonextraer">
+                                    <button type="button" id="botonextraer">Extraer</button>
+                                </td>
+                                <td class="botoncolorear">
+                                    <button id="botoncolorear">Colorear</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color1" id="color3">
+                                    <h3 id="fechaNaci">Fecha de nacimiento:</h3>
+                                </td>
+                                <td class="textoIngresado">
+                                    <input id="date" type="date" name="date" min="1980-01-01" max="2021-12-31">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <!--*****Para la parte de los resultados*****-->
+                <div class="Resultados">
+                    <div class="resultado">
+                        <table class="resultadosDatosPersonales">
+                            <tr>
+                                <td class="color1" id="color4">
+                                    <h3>Apellido Paterno:</h3>
+                                </td>
+                                <td class="textoIngresado">
+                                    <input id="Paterno" type="text" name="Appaterno" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color1" id="color5">
+                                    <h3>Apellido Materno:</h3>
+                                </td>
+                                <td class="textoIngresado">
+                                    <input id="Materno" type="text" name="Apmaterno" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color1" id="color6">
+                                    <h3>Nombres:</h3>
+                                </td>
+                                <td class="textoIngresado">
+                                    <input id="nombre" type="text" name="nombre" readonly>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="fecha">
+                        <table>
+                            <tr>
+                                <td class="color2" id="color7">
+                                    <h3>Longitud del apellido:</h3>
+                                </td>
+                                <td class="textoextraido">
+                                    <input id="longitud" type="text" name="longitud" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color2" id="color8">
+                                    <h3>Edad:</h3>
+                                </td>
+                                <td class="textoextraido">
+                                    <input id="edad" type="text" name="edad" readonly>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="color2" id="color9">
+                                    <h3>Mes en letras:</h3>
+                                </td>
+                                <td class="textoextraido">
+                                    <input id="mes" type="text" name="mes" readonly>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="js/lab05.js" async defer></script>
+    </body>
+</html>
